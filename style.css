@@ -1,0 +1,78 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("utdirect.utexas.edu") {
+  body {
+    background-image: url('http://i.imgur.com/Wa92C0w.png') !important;
+    background-position: right bottom !important;
+    background-color: white !important;
+  }
+  #fullpage {
+    margin: 10px 0px !important;
+  }
+  #mainnavtext {
+    height: 44px !important;
+  }
+  #mainnavtext li{
+    text-transform: uppercase !important;
+  }
+  #navbarFloat {
+    width: 195px !important;
+  }
+  #navbarContainer {
+    width: 195px !important;
+  }
+  #navbar_menu {
+    padding: 40px 0px 10px 10px !important;
+    text-align: center;
+  }
+  #breadcrumbs {
+    font-size: 120% !important;
+  }
+  h1 {
+    margin-top: 0px !important;
+  }
+  #service_content img {
+    margin: 0 4px 4px 0;
+  }
+  table {
+    border-collapse: collapse !important;
+  }
+  th {
+    padding: 3px 8px 3px 8px !important;
+    text-transform: uppercase !important;
+  }
+  td {
+    padding: 3px 8px 3px 8px !important;
+    vertical-align: middle !important;
+    line-height: 20px !important;
+  }
+  #pgTitle {
+    line-height: 200% !important;
+  }
+  .fineprnt {
+    font-size: 100% !important;
+  }
+}
+
+@-moz-document url-prefix("https://utdirect.utexas.edu/registration/") {
+  th {
+    background-color: #FBBC95 !important;
+  }
+  form {
+    /*margin-top: -20px !important;*/
+  }
+  br {
+    line-height: 5px !important;
+  }
+}
+
+@-moz-document url-prefix("https://utdirect.utexas.edu/bevobucks/"), url-prefix("https://utdirect.utexas.edu/hfis/proxyMenu.WBX") {
+  #breadcrumbs {
+    font-size: 120% !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 28px !important;
+  }
+}
+
+@-moz-document url-prefix("https://utdirect.utexas.edu/nrida/") {
+}
