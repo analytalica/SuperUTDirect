@@ -1,78 +1,115 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document domain("utdirect.utexas.edu") {
-  body {
-    background-image: url('https://raw.githubusercontent.com/analytalica/SuperUTDirect/master/assets/whiteutblur3tall.png') !important;
-    background-position: right bottom !important;
-    background-color: white !important;
-  }
-  #fullpage {
-    margin: 10px 0px !important;
-  }
-  #mainnavtext {
-    height: 44px !important;
-  }
-  #mainnavtext li{
-    text-transform: uppercase !important;
-  }
-  #navbarFloat {
-    width: 195px !important;
-  }
-  #navbarContainer {
-    width: 195px !important;
-  }
-  #navbar_menu {
-    padding: 40px 0px 10px 10px !important;
-    text-align: center;
-  }
-  #breadcrumbs {
-    font-size: 120% !important;
-  }
-  h1 {
-    margin-top: 0px !important;
-  }
-  #service_content img {
-    margin: 0 4px 4px 0;
-  }
-  table {
-    border-collapse: collapse !important;
-  }
-  th {
-    padding: 3px 8px 3px 8px !important;
-    text-transform: uppercase !important;
-  }
-  td {
-    padding: 3px 8px 3px 8px !important;
-    vertical-align: middle !important;
-    line-height: 20px !important;
-  }
-  #pgTitle {
-    line-height: 200% !important;
-  }
-  .fineprnt {
-    font-size: 100% !important;
-  }
+@-moz-document domain("utdirect.utexas.edu") { 
+    body {
+      background-image: url('https://raw.githubusercontent.com/analytalica/SuperUTDirect/master/assets/whiteutblur3tall.png') !important;
+      background-position: right bottom !important;
+      background-color: white !important;
+      background-repeat:no-repeat !important;
+    }
+    #fullpage {
+      margin: 10px 0px !important;
+    }
+    #mainnavtext {
+      height: 44px !important;
+    }
+    #mainnavtext li {
+      text-transform: uppercase !important;
+    }
+    #navbar_ut_direct_logo {
+      top: 135px !important;
+    }
+    #navbarFloat {
+      width: 195px !important;
+    }
+    #navbarContainer {
+      width: 195px !important;
+      /*background-image: none !important;*/
+      background: rgb(162,64,0);
+      /* Old browsers */
+      background: -moz-linear-gradient(top, rgba(162,64,0,1) 0%, rgba(255,255,255,1) 100%);
+      /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(162,64,0,1)), color-  stop(100%,rgba(255,255,255,1)));
+      /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, rgba(162,64,0,1) 0%,rgba(255,255,255,1) 100%);
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, rgba(162,64,0,1) 0%,rgba(255,255,255,1) 100%);
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, rgba(162,64,0,1) 0%,rgba(255,255,255,1) 100%);
+      /* IE10+ */
+      background: linear-gradient(to bottom, rgba(162,64,0,1) 0%,rgba(255,255,255,1) 100%);
+      /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a24000', endColorstr='#ffffff',GradientType=0 );
+      /* IE6-9 */
+      background-size: 93% 100px !important;
+      background-repeat: no-repeat !important;
+    }
+    #navbar_menu {
+      padding: 40px 0px 10px 10px !important;
+      text-align: center !important;
+    }
+    #navbar2 {
+      margin-top: 20px !important;
+    }
+    #navbar1 {
+      margin-top: 20px !important;
+    }
+    #navbar_bottom {
+      visibility: hidden !important
+    }
+    .menu {
+      background-image: url('https://raw.githubusercontent.com/analytalica/SuperUTDirect/master/assets/sidebar_divider.png') !important;
+    }
+    #breadcrumbs {
+      font-size: 120% !important;
+    }
+    h1 {
+      margin-top: 0px !important;
+    }
+    #service_content img {
+      margin: 0 4px 4px 0;
+    }
+    table {
+      border-collapse: collapse !important;
+    }
+    th {
+      padding: 3px 8px 3px 8px !important;
+      text-transform: uppercase !important;
+    }
+    td {
+      padding: 3px 8px 3px 8px !important;
+      vertical-align: middle !important;
+      line-height: 20px !important;
+    }
+    #pgTitle {
+      line-height: 200% !important;
+    }
+    .fineprnt {
+      font-size: 100% !important;
+    }
 }
 
-@-moz-document url-prefix("https://utdirect.utexas.edu/registration/") {
-  th {
-    background-color: #FBBC95 !important;
-  }
-  form {
-    /*margin-top: -20px !important;*/
-  }
-  br {
-    line-height: 5px !important;
-  }
+@-moz-document url-prefix("https://utdirect.utexas.edu/registration/") { 
+    th {
+      background-color: #FBBC95 !important;
+    }
+    form {
+      /*margin-top: -20px !important;*/
+    }
+    br {
+      line-height: 5px !important;
+    }
 }
 
-@-moz-document url-prefix("https://utdirect.utexas.edu/bevobucks/"), url-prefix("https://utdirect.utexas.edu/hfis/proxyMenu.WBX") {
-  #breadcrumbs {
-    font-size: 120% !important;
-    padding-bottom: 0px !important;
-    margin-bottom: 28px !important;
-  }
+@-moz-document url-prefix("https://utdirect.utexas.edu/bevobucks/"),
+         url-prefix("https://utdirect.utexas.edu/hfis/proxyMenu.WBX") { 
+    #breadcrumbs {
+      font-size: 120% !important;
+      padding-bottom: 0px !important;
+      margin-bottom: 28px !important;
+    }
 }
 
-@-moz-document url-prefix("https://utdirect.utexas.edu/nrida/") {
+@-moz-document url-prefix("https://utdirect.utexas.edu/nrida/") { 
+    
 }
