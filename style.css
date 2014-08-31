@@ -155,7 +155,8 @@
 }
 
 @-moz-document url-prefix("https://utdirect.utexas.edu/registration/"),
-         url-prefix("https://utdirect.utexas.edu/acct/rec/autopay/") { 
+         url-prefix("https://utdirect.utexas.edu/acct/rec/autopay/"),
+         url-prefix("https://utdirect.utexas.edu/acct/rec/wio/") { 
     th {
       background-color: #FBBC95 !important;
     }
@@ -184,7 +185,7 @@
     }
 }
 
-@-moz-document url("https://utdirect.utexas.edu/utdirect/index.WBX") { 
+@-moz-document url("https://utdirect.utexas.edu/utdirect/index.WBX"){ 
     #pgTitle {
       margin-top: 2px;
       margin-left: -105px;
@@ -198,5 +199,11 @@
       padding: 0px 0px 0px 0px !important;
       vertical-align: middle !important;
       line-height: 20px !important;
+    }
+    tbody tr:nth-child(even) {
+      background-color: rgba(255, 255, 255, 0.8) !important;
+    }
+    tbody tr:nth-child(odd) {
+      background-color: rgba(230, 230, 230, 0.8) !important;
     }
 }
