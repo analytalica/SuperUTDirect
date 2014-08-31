@@ -15,6 +15,9 @@
       padding-left: 2% !important;
       padding-right: 10% !important;
     }
+    #channelFloat {
+      border: none !important;
+    }
     #customize {
       margin-right: 9% !important;
       text-shadow: 2px 2px 2px #CCC !important;
@@ -81,13 +84,15 @@
     }
     /* Custom Breadcrumb Styling */
     #breadcrumbs li.path_item, #breadcrumbs li.last_item{
-      padding: 0px 6px 0px 0px !important;
+      padding: 0px 2px 0px 0px !important;
     }
     /* Original breadcrumbs had >> trailing each item. */
     #breadcrumbs li.path_item:after {
-      content: "❯" !important;
+      content: ">" !important;
+      color: gray !important;
       font-weight: bold !important;
-      
+      font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;*/
+      /*padding: 0px 0px 4px 0px !important;*/
     }
     h1 {
       margin-top: 0px !important;
@@ -120,7 +125,6 @@
       vertical-align: middle !important;
       line-height: 20px !important;
     }
-
     #header_row {
       background-color: #FBBC95 !important;
     }
@@ -183,7 +187,16 @@
 @-moz-document url("https://utdirect.utexas.edu/utdirect/index.WBX") { 
     #pgTitle {
       margin-top: 2px;
-      margin-left: -108px;
+      margin-left: -105px;
       margin-bottom: 12px;
+    }
+    th {
+      padding: 0px 0px 0px 0px !important;
+      text-transform: uppercase !important;
+    }
+    td {
+      padding: 0px 0px 0px 0px !important;
+      vertical-align: middle !important;
+      line-height: 20px !important;
     }
 }
