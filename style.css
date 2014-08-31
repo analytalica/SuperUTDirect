@@ -49,6 +49,9 @@
     #navbar_bottom {
       visibility: hidden !important
     }
+    #navbar_ut_direct_logo {
+      background-image: url('https://raw.githubusercontent.com/analytalica/SuperUTDirect/master/assets/super_utdirect.png') !important;
+    }
     .menu {
       background-image: url('https://raw.githubusercontent.com/analytalica/SuperUTDirect/master/assets/sidebar_divider.png') !important;
     }
@@ -60,6 +63,13 @@
     }
     #service_content img {
       margin: 0 4px 4px 0;
+    }
+    #news_heading {
+      font-size: 100% !important;
+    }
+    #news_body {
+      padding: 1px 3px 3px 8px !important;
+      font-size: 90%;
     }
     table {
       border-collapse: collapse !important;
@@ -73,23 +83,24 @@
       vertical-align: middle !important;
       line-height: 20px !important;
     }
+    tbody tr:nth-child(even) {
+      background-color: rgba(255, 255, 255, 0.8) !important;
+    }
+    tbody tr:nth-child(odd) {
+      background-color: rgba(230, 230, 230, 0.8) !important;
+    }
     #pgTitle {
       line-height: 200% !important;
     }
     .fineprnt {
       font-size: 100% !important;
     }
+  
 }
 
 @-moz-document url-prefix("https://utdirect.utexas.edu/registration/") { 
     th {
       background-color: #FBBC95 !important;
-    }
-    tbody tr:nth-child(even) {
-      background-color: rgba(255, 255, 255, 0.85) !important;
-    }
-    tbody tr:nth-child(odd) {
-      background-color: rgba(230, 230, 230, 0.85) !important;
     }
     form {
       /*margin-top: -20px !important;*/
@@ -100,7 +111,8 @@
 }
 
 @-moz-document url-prefix("https://utdirect.utexas.edu/bevobucks/"),
-         url-prefix("https://utdirect.utexas.edu/hfis/proxyMenu.WBX") { 
+         url-prefix("https://utdirect.utexas.edu/hfis/proxyMenu.WBX"),
+         url-prefix("https://utdirect.utexas.edu/acct/rec/weft/") {
     #breadcrumbs {
       font-size: 120% !important;
       padding-bottom: 0px !important;
