@@ -8,6 +8,18 @@
       background-repeat:no-repeat !important;
       height: 100% !important;
     }
+    #columnA {
+      padding-left: 16% !important;
+    }
+    #columnB {
+      padding-left: 2% !important;
+      padding-right: 10% !important;
+    }
+    #customize {
+      margin-right: 9% !important;
+      text-shadow: 2px 2px 2px #CCC !important;
+      text-transform: lowercase !important;
+    }
     #fullpage {
       margin: 20px 0px !important;
     }
@@ -168,6 +180,10 @@
     }
 }
 
-@-moz-document url-prefix("https://utdirect.utexas.edu/nrida/") { 
-    
+@-moz-document url("https://utdirect.utexas.edu/utdirect/index.WBX") { 
+    #pgTitle {
+      margin-top: 2px;
+      margin-left: -108px;
+      margin-bottom: 12px;
+    }
 }
