@@ -14,6 +14,7 @@
     #columnB {
       padding-left: 2% !important;
       padding-right: 10% !important;
+      border-left: 1px solid #A24000 !important;
     }
     #channelFloat {
       border: none !important;
@@ -25,6 +26,7 @@
     }
     #fullpage {
       margin: 20px 0px !important;
+      width: 100% !important;
     }
     #mainnavtext {
       height: 44px !important;
@@ -98,7 +100,7 @@
       margin-top: 0px !important;
     }
     #service_content img {
-      margin: 0 4px 4px 0 !important;
+      margin: 0 3px 3px 0 !important;
     }
     #news_heading {
       font-size: 100% !important;
